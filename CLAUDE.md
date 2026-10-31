@@ -1,8 +1,9 @@
 # rackbops-mcp-kit -- Claude Instructions
 
-`@rackbops/mcp-kit`: the shared tool registry and dispatcher for Rackbops MCP servers, to be extracted
+`@rackbops/mcp-kit`: the shared tool registry and dispatcher for Rackbops MCP servers, extracted
 from `Rackbops/meals-for-two` `src/mcp/registry.ts` and `tools.ts` (the design Meals, tracker-mcp and
-discord-mcp already share). What it is for and what it is not: [`docs/PURPOSE.md`](docs/PURPOSE.md).
+discord-mcp already share). The registry (`src/registry.ts`) and the contract lint (`src/testing.ts`,
+exported as `@rackbops/mcp-kit/testing`) exist; the dispatcher is still to come. What it is for and what it is not: [`docs/PURPOSE.md`](docs/PURPOSE.md).
 My personal `~/.claude/CLAUDE.md` governs how I work; this covers only this repo.
 
 - **Behaviour-preserving extraction.** The consuming servers' live clients (claude.ai, ChatGPT) see the
