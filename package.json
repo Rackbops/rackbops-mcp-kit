@@ -1,6 +1,6 @@
 {
   "name": "@rackbops/mcp-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared kit for remote MCP servers: a contract-driven tool registry and dispatcher over the official MCP SDK.",
   "license": "MIT",
   "type": "module",
